@@ -24,24 +24,7 @@ img { max-width: 100%; }
   --font-display: "Unbounded", "Onest", system-ui, sans-serif;
   --font-body: "Onest", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --maxw: 1120px;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #1c1b1a; --band: #2a231d; --band-2: #26231b; --tint: #3a2e22; --sun: #4a3a1c; --line: #403830;
-    --fg: #efebe7; --muted: #aba49e; --accent: #f7a03a; --accent-soft: #f5b938; --accent-ink: #f8b061;
-    --on-accent: #1c1b1a; --red: #f0453c; --lg-grey: #d6d3d0;
-    --note-bg: #3b2e18; --note-fg: #f6d6a0;
-    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.25);
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #1c1b1a; --band: #2a231d; --band-2: #26231b; --tint: #3a2e22; --sun: #4a3a1c; --line: #403830;
-  --fg: #efebe7; --muted: #aba49e; --accent: #f7a03a; --accent-soft: #f5b938; --accent-ink: #f8b061;
-  --on-accent: #1c1b1a; --red: #f0453c; --lg-grey: #d6d3d0;
-  --note-bg: #3b2e18; --note-fg: #f6d6a0;
-  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.25);
-  color-scheme: dark;
+  color-scheme: only light;  /* always the light style the client asked for, even in dark mode */
 }
 
 * { box-sizing: border-box; }
