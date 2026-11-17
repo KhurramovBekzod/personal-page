@@ -48,7 +48,6 @@
           <h1 data-i18n="hero_h1">Evidence-based care for the whole family, in one place.</h1>
           <p class="lead" data-i18n="hero_lead">Children, teenagers, adults and expecting mothers are seen by one team of local and international doctors.</p>
           <p><a class="btn btn-light" href="#team" data-i18n="hero_btn">Meet our doctors</a></p>
-          <p><span class="pending pending-light" data-i18n="draft_tag">Draft tagline, awaiting client approval</span></p>
         </div>
       </div>
       <a class="scroll-cue" href="#about"><span class="mouse" aria-hidden="true"></span><span data-i18n="scroll">Scroll down</span></a>
@@ -59,8 +58,8 @@
     <div class="wrap">
       <ul>
         <li><strong>10+</strong><span data-i18n="f1">years of mobile clinics in the regions</span></li>
-        <li><strong>2023</strong><span data-i18n="f2">clinic in Bishkek opened in October</span></li>
-        <li><strong>6</strong><span data-i18n="f3">languages for consultations and reports</span></li>
+        <li><strong data-i18n="f2n">Since 2023</strong><span data-i18n="f2">our clinic in Bishkek, opened in October</span></li>
+        <li><strong>6</strong><span data-i18n="f3">consultation languages</span><span class="langs-line">Кыргызча · Русский · English · 中文 · Deutsch · Français</span></li>
         <li><strong>30%</strong><span data-i18n="f4">discount on laboratory tests for our patients</span></li>
       </ul>
     </div>
@@ -105,32 +104,48 @@
       <div class="sec-head">
         <p class="eyebrow" data-i18n="nav_services">Medical Services</p>
         <h2 id="svc-h" data-i18n="svc_h">What we offer</h2>
-        <p data-i18n="svc_intro">We are an outpatient clinic: we see patients during the day and do not keep anyone overnight. Additional services are arranged after a consultation with one of our doctors.</p>
+        <p data-i18n="svc_intro">We are an outpatient clinic: we see patients during the day and do not keep anyone overnight. Diagnostics and lab tests are arranged after a consultation with one of our doctors.</p>
       </div>
       <div class="svc">
-        <article><h3 data-i18n="s1t">Daily consultations</h3><p data-i18n="s1d">Family medicine, pediatrics, gynecology and pulmonology, for children and adults.</p></article>
-        <article><h3 data-i18n="s2t">Consultations and reports in your language</h3><p data-i18n="s2d">Kyrgyz, Russian, English, Chinese, German and French.</p></article>
-        <article><h3 data-i18n="s3t">Preventive check-ups</h3><p data-i18n="s3d">Growth and development, vision screening, EKG, screening for anemia and diabetes, laboratory tests.</p></article>
-        <article><h3 data-i18n="s4t">Medical documents and certificates</h3><p data-i18n="s4d">For schools, flying, travel and tourism, employment and insurance.</p></article>
-      </div>
-      <div class="extra">
-        <div>
-          <h3 data-i18n="x_h">Additional services</h3>
+        <article>
+          <h3 data-i18n="g1">Consultations</h3>
           <ul>
-            <li><span data-i18n="x1">Ultrasound</span></li>
-            <li><span data-i18n="x2">EKG</span></li>
-            <li><span data-i18n="x3">Vision testing</span></li>
-            <li><span data-i18n="x4">Audiometry (hearing test)</span></li>
-            <li><span class="stack"><span data-i18n="x5">Laboratory tests on site, 30% discount for our patients</span><span class="pending" data-i18n="x5_flag">Wording awaiting clinic review</span></span></li>
-            <li><span data-i18n="x6">Birth preparation courses with our certified doula</span></li>
+            <li data-i18n="g1a">Family medicine for adults and children</li>
+            <li data-i18n="g1b">Pediatrics</li>
+            <li data-i18n="g1c">Gynecology</li>
+            <li data-i18n="g1d">Pulmonology</li>
+            <li data-i18n="g1e">Physical therapy</li>
+            <li data-i18n="g1f">Preventive check-ups for children, women and men</li>
+            <li data-i18n="g1g">Pregnancy and birth preparation with our certified doula</li>
           </ul>
-        </div>
+        </article>
+        <article>
+          <h3 data-i18n="g2">Diagnostics and lab tests</h3>
+          <ul>
+            <li data-i18n="g2a">Ultrasound</li>
+            <li data-i18n="g2b">EKG (heart test)</li>
+            <li data-i18n="g2c">Vision testing</li>
+            <li data-i18n="g2d">Hearing test (audiometry)</li>
+            <li data-i18n="g2e">Laboratory tests on site, including anemia and diabetes screening</li>
+          </ul>
+        </article>
+        <article>
+          <h3 data-i18n="g3">Documents and certificates</h3>
+          <ul>
+            <li data-i18n="g3a">For school</li>
+            <li data-i18n="g3b">For flights and travel</li>
+            <li data-i18n="g3c">For employment</li>
+            <li data-i18n="g3d">For insurance</li>
+          </ul>
+        </article>
+      </div>
         <div class="org">
-          <h3 data-i18n="org_h">For schools, companies and embassies</h3>
-          <p data-i18n="org_p">We offer yearly staff check-ups and special deals for students. Contact us to discuss a partnership.</p>
+          <div>
+            <h3 data-i18n="org_h">For schools, companies and embassies</h3>
+            <p data-i18n="org_p">We offer yearly staff check-ups and special deals for students. Contact us to discuss a partnership.</p>
+          </div>
           <button type="button" class="btn btn-primary" data-open="org" data-i18n="org_btn">Talk to us about a partnership</button>
         </div>
-      </div>
     </div>
   </section>
 
@@ -141,8 +156,18 @@
         <h2 id="team-h" data-i18n="team_h">The people you will meet</h2>
         <p data-i18n="team_intro">Kyrgyz and international specialists working together in one team.</p>
       </div>
-      <ul class="team" id="teamlist"></ul>
-      <p class="team-note"><span class="pending" data-i18n="bio_ph">Short bios for each team member: awaiting client confirmation</span></p>
+      <ul class="team" id="teamlist">
+        <li><img src="images/team/mahabat-alieva.jpg" width="400" height="500" loading="lazy" alt="Photo of Mahabat Alieva, Director / Doula" data-name="Mahabat Alieva" data-role="r_dir"><span class="name">Mahabat Alieva</span><span class="role" data-i18n="r_dir">Director / Doula</span></li>
+        <li><img src="images/team/jonathan-williams.jpg" width="400" height="500" loading="lazy" alt="Photo of Jonathan Williams, Chief Doctor / Pediatrics" data-name="Jonathan Williams" data-role="r_chief"><span class="name">Jonathan Williams</span><span class="role" data-i18n="r_chief">Chief Doctor / Pediatrics</span></li>
+        <li><img src="images/team/irina-pak.jpg" width="400" height="500" loading="lazy" alt="Photo of Irina Pak, Pediatrics / Family Medicine" data-name="Irina Pak" data-role="r_pedfam"><span class="name">Irina Pak</span><span class="role" data-i18n="r_pedfam">Pediatrics / Family Medicine</span></li>
+        <li><img src="images/team/nasyikat-dononbaeva.jpg" width="400" height="500" loading="lazy" alt="Photo of Nasyikat Dononbaeva, Internal Medicine / Pulmonology" data-name="Nasyikat Dononbaeva" data-role="r_intpul"><span class="name">Nasyikat Dononbaeva</span><span class="role" data-i18n="r_intpul">Internal Medicine / Pulmonology</span></li>
+        <li><img src="images/team/nabat-gasimova.jpg" width="400" height="500" loading="lazy" alt="Photo of Nabat Gasimova, Pediatric Intensivist" data-name="Nabat Gasimova" data-role="r_pedint"><span class="name">Nabat Gasimova</span><span class="role" data-i18n="r_pedint">Pediatric Intensivist</span></li>
+        <li><img src="images/team/nancy-yau.jpg" width="400" height="500" loading="lazy" alt="Photo of Nancy Yau, Pediatrics" data-name="Nancy Yau" data-role="r_ped"><span class="name">Nancy Yau</span><span class="role" data-i18n="r_ped">Pediatrics</span></li>
+        <li><img src="images/team/lukas-meyer-landholt.jpg" width="400" height="500" loading="lazy" alt="Photo of Lukas Meyer-Landholt, Pediatrics / Oncology" data-name="Lukas Meyer-Landholt" data-role="r_pedonc"><span class="name">Lukas Meyer-Landholt</span><span class="role" data-i18n="r_pedonc">Pediatrics / Oncology</span></li>
+        <li><img src="images/team/madison-smith.jpg" width="400" height="500" loading="lazy" alt="Photo of Madison Smith, Physical Therapist" data-name="Madison Smith" data-role="r_pt"><span class="name">Madison Smith</span><span class="role" data-i18n="r_pt">Physical Therapist</span></li>
+        <li><img src="images/team/simbat-sadyrbaeva.jpg" width="400" height="500" loading="lazy" alt="Photo of Simbat Sadyrbaeva, Gynecology" data-name="Simbat Sadyrbaeva" data-role="r_gyn"><span class="name">Simbat Sadyrbaeva</span><span class="role" data-i18n="r_gyn">Gynecology</span></li>
+        <li><img src="images/team/nargiza-islamova-ultrasound.jpg" width="400" height="500" loading="lazy" alt="Ultrasound scanner at MercyMed" data-name="Nargiza Islamova" data-role="r_us"><span class="name">Nargiza Islamova</span><span class="role" data-i18n="r_us">Ultrasound</span></li>
+      </ul>
     </div>
   </section>
 
@@ -155,11 +180,9 @@
       <div class="contact-grid">
         <div>
           <dl class="info">
-            <div><dt data-i18n="c_addr">Address</dt><dd><span data-i18n="c_addr_v">Tunguch microdistrict, near Ayu Grand, Bishkek</span></dd></div>
-            <div><dt>WhatsApp</dt><dd><span class="num" id="wa-num">+996 770 231 813</span><button type="button" class="copy" data-copy="+996770231813" data-i18n="copy">Copy</button></dd></div>
-            <div><dt data-i18n="c_phone">Phone</dt><dd><span class="pending" data-i18n="c_phone_ph">Voice line awaiting confirmation</span></dd></div>
-            <div><dt data-i18n="c_mail">E-mail</dt><dd><span class="pending" data-i18n="c_mail_ph">Address awaiting client confirmation</span></dd></div>
-            <div><dt data-i18n="c_hours">Opening hours</dt><dd><span class="pending" data-i18n="c_hours_ph">Awaiting client confirmation</span></dd></div>
+            <div><dt data-i18n="c_addr">Address</dt><dd><span data-i18n="c_addr_v">Isakeev Street 18, Tunguch microdistrict, Bishkek (near Ayu Grand)</span></dd></div>
+            <div><dt data-i18n="c_phone">Phone and WhatsApp</dt><dd><a class="num" id="wa-num" href="tel:+996770231813">+996 770 231 813</a><button type="button" class="copy" data-copy="+996770231813" data-i18n="copy">Copy</button></dd></div>
+            <div><dt data-i18n="c_hours">Opening hours</dt><dd><span data-i18n="c_hours_v">Monday to Friday, 09:00–18:00</span></dd></div>
           </dl>
           <div class="how-book">
             <p data-i18n="c_howbook">To book, send us your name and surname, date of birth and a contact number. Our receptionist will reply with a time.</p>
@@ -171,14 +194,14 @@
         </div>
         <div>
           <a class="map" href="https://2gis.ru/bishkek/geo/15763221466054725/74.68137%2C42.859347" target="_blank" rel="noopener">
-            <div><div class="pin"></div><strong data-i18n="map_t">Open our location in 2GIS</strong><small data-i18n="map_s">Tunguch microdistrict, near Ayu Grand</small></div>
+            <div><div class="pin"></div><strong data-i18n="map_t">Open our location in 2GIS</strong><small data-i18n="map_s">Isakeev Street 18, Tunguch microdistrict</small></div>
           </a>
           <div class="elsewhere">
             <span class="muted" data-i18n="c_else">Also find us on</span>
             <ul>
               <li><a href="https://www.instagram.com/mercymed.kg/" target="_blank" rel="noopener">Instagram · @mercymed.kg</a></li>
               <li><a href="https://2gis.ru/bishkek/geo/15763221466054725/74.68137%2C42.859347" target="_blank" rel="noopener">2GIS</a></li>
-              <li><span class="soon">O-Doctor <span class="pending" data-i18n="link_ph">link awaiting</span></span></li>
+              <li><a href="https://odoctor.kg/clinics/bishkek/mercymed" target="_blank" rel="noopener">O-Doctor</a></li>
             </ul>
           </div>
         </div>

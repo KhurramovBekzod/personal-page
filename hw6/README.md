@@ -11,9 +11,9 @@ It's a group assignment for COM 360 at the American University of Central Asia (
 |---|---|
 | **Home** | Full-width photo banner with the tagline and a "Meet our doctors" button, plus key facts (10+ years of mobile clinics, opened in 2023, 6 consultation languages, 30% lab discount) and "How we work" |
 | **About** | Clinic history, what evidence-based medicine means for patients, mobile clinics, medical education, organisations |
-| **Medical Services** | Consultations, preventive check-ups, medical documents, additional services, a block for schools, companies and embassies |
+| **Medical Services** | Three groups (Consultations, Diagnostics and lab tests, Documents and certificates), each service listed once, plus a block for schools, companies and embassies |
 | **Team** | All 10 staff members with photo, name and position |
-| **Contact** | Address, WhatsApp number (with copy button), 2GIS location, Instagram |
+| **Contact** | Address, phone and WhatsApp, opening hours, 2GIS location, Instagram and O-Doctor |
 
 ## Features
 
@@ -49,18 +49,20 @@ mercymed-website/
 
 ## How to update the content
 
-- **Team members and positions:** edit the `TEAM` list and the `r_…` position texts near the top of `js/main.js`. Put new photos in `images/team/` and add them to the `PH` list in the same file.
+- **Team members and positions:** edit the team cards in the `#team` section of `index.html` (photo, name, position). Put new photos in `images/team/`. Russian and Kyrgyz position names are the `r_…` texts in `js/main.js`.
 - **English text:** edit it directly in `index.html`.
 - **Russian and Kyrgyz text:** edit the `ru` and `ky` sections in `js/main.js`. They use the same keys as the `data-i18n` attributes in `index.html`.
 - **Colors:** all colors are variables at the top of `css/styles.css`.
 
+## Sources for contact details
+
+Opening hours (Monday–Friday, 09:00–18:00), the phone/WhatsApp number and the address (Isakeev Street 18) come from MercyMed's public listings on [MedElement](https://company.medelement.com/медицинский-центр-mercymed-бишкек) and [O-Doctor](https://odoctor.kg/clinics/bishkek/mercymed), and from the clinic's Instagram profile. The clinic should confirm them before launch.
+
 ## Still to confirm with the clinic
 
-- Opening hours, phone line for calls, e-mail address
+- Exact building number (the public listings differ) and weekend hours
 - Short bios for each staff member
-- Final tagline and banner photo (a wide, high-quality clinic photo would work best)
-- Wording for the laboratory and its 30% discount
-- O-Doctor profile link
+- Final tagline and a wide, high-quality banner photo
 - Review of the Russian and Kyrgyz translations by MercyMed staff
 
 ## Credits
